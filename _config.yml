@@ -100,10 +100,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "William Lacouture"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "I am a Senior at Stocton University pursuing a B.S in Management."
+  location         : "New Jersey"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
