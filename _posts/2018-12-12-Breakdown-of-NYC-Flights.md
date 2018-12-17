@@ -11,17 +11,17 @@ title: Analysis of NYC Flights in the year 2013
 
 # Project Workflow
 
-  Downloaded the dataset from https://data.world/bob-wakefield/flights and imported to Tableu as other. Once successfully imported I created a multiple calculated field First Dep Delay:  IF [Dep Delay] < 0 THEN NULL ELSE [Dep Delay] END. With the purpose to remove all the times when an airline left early so no positive values will change the efficiency table. I wanted to only look at the negative numbers which meant the tardy efficiency of each airline would only look at late flights and not consider those that left early. Second Avg(Delays to Flight ratio) is [Flight] / [Dep Delay] which creates a positive ratio for efficiency the higher the number the more efficient that dimension is. Third Placeholders are set up to create Labels for Text Tables. 
+  Downloaded the dataset from https://data.world/bob-wakefield/flights and imported to Tableau as other. Once successfully imported I created a multiple calculated field First Dep Delay:  IF [Dep Delay] < 0 THEN NULL ELSE [Dep Delay] END. With the purpose to remove all the times when an airline left early so no positive values will change the efficiency table. I wanted to only look at the negative numbers which meant the tardy efficiency of each airline would only look at late flights and not consider those that left early. Second Avg (Delays to Flight ratio) is [Flight] / [Dep Delay] which creates a positive ratio for efficiency the higher the number the more efficient that dimension is. Third Placeholders are set up to create Labels for Text Tables. 
 
   On the visual Destination by flights I created a parameter for Number of flights, so the user can adjust the number and have a clear visual of the routes that were flown above and below whatever your target may be. This also allows you to concentrate on the top routes our of NYC airports.
 
   Filters used under Most Flight Destination dashboard I used Carrier, Dest and Origin. This allows a user to tinker and center in on a specific route, airline or airport. On the text table I added the filters Dest and Origin. For user to simplify the list.
 
-  Tooltips used in distance travel by airport include Origin, Sum(Distance) and Sum(hour) this allows the user to quickly see the amount of flight miles and hours that each airport was involved in. in Airport by flights I used Origin and amount of flights so the user can see amount of flights without looking at the graph on the left. Destination by flights include Dest to easily see which route your on, Avg delays to ratio so you can see the effectiveness of the route and flights, so you can see the actual amount of flights in that flight route. Carrier by AVG departure delay I used the tooltips carrier, avg delays to flights ratio and flight.
+  Tooltips used in distance travel by airport include Origin, Sum (Distance) and Sum (hour) this allows the user to quickly see the amount of flight miles and hours that each airport was involved in. in Airport by flights I used Origin and amount of flights so the user can see amount of flights without looking at the graph on the left. Destination by flights include Dest to easily see which route you're on, Avg delays to ratio so you can see the effectiveness of the route and flights, so you can see the actual amount of flights in that flight route. Carrier by AVG departure delay I used the tooltips carrier, avg delays to flights ratio and flight.
 
 # Limitations
 
-  The downside of the dataset is that it did not include where all the flights were coming from. This prevented me a comparison of departure destinations and arrival destination. Would have also liked to have had the coordiantes of each Destination and Origin to create a geographical visual.
+  The downside of the dataset is that it did not include where all the flights were coming from. This prevented me a comparison of departure destinations and arrival destination. Would have also liked to have had the coordinates of each Destination and Origin to create a geographical visual.
 
 # Tableu Workbook
 
