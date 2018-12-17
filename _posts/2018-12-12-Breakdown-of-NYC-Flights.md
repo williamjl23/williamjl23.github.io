@@ -32,9 +32,10 @@ title: Analysis of NYC Flights in the year 2013
   The downside of the dataset is that it did not include where all the flights were coming from. This prevented me a comparison of departure destinations and arrival destination. Would have also liked to have had the coordinates of each Destination and Origin to create a geographical visual.
   
 # Data Visualizaton Methodology
-
+  To display my bar graphs I made sure to maintain a Zero baseline to maintain integrity within the visual. I added carrier color to the first graph to clearly show the difference between flights and miles. This easily shows that EWR in orange had the most flights but not the most miles that is by JFK in Blue. The text table is designed to be used with the destination and origin filter to minimize the clutter. The destination by flights parameter grays everything out that is below the parameter number and the positive values remain blue. the use of color keeps the focus on the destinations that meet your parameters. To enhance the user experience this, graph also uses Carrier, Destination and Origin filters allowing you narrow down an inquiry. The final graph "Carrier by AVG Departure Delay" has a simple color fade to keep the user focus on the left side of the bar which is the most efficient airline.     
 
 # Conclusion
+  Using the NYC flight dataset was an interesting experience. I would have never thought that so many flights flew out of the NYC area in one year. And that even with Newark operating almost double the amount of flights then JFK, JFK flights travelled further than any other airport in the region. When taking a closer look at the destinations traveled by NYC airports. It turned out that the top 3 are all hubs of major airlines supporting the notion that airlines now funnel passengers from various markets into a hub and then move them to their destination. Frequent flyers will be familiar to this when they must stop somewhere like Atlanta when they are headed to Louisiana. And lastly, I was surprised to see ExpressJet to be the carrier with the most amount of flights out of NYC airports over the large carriers such as United or American Airlines. I really enjoyed working on this project and the knowledge I gained from a digital storytelling perspective. 
 
 
 # Tableu Workbook
