@@ -1,13 +1,13 @@
 ---
 title: Analysis of NYC Flights in the year 2013
 ---
-#Table of Contents
-##Executive Summary
-##Analysis of NYC Flights
-##Project Workflow
-##Limitations
-##Data Visualization Methodology
-##Conclusion
+# Table of Contents
+## Executive Summary
+## Analysis of NYC Flights
+## Project Workflow
+## Limitations
+## Data Visualization Methodology
+## Conclusion
 
 # Final Project - Introduction to Big Data Visualization
 
