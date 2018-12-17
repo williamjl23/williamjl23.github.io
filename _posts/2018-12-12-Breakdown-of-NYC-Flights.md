@@ -8,9 +8,8 @@ title: Analysis of NYC Flights in the year 2013
 ## Limitations
 ## Data Visualization Methodology
 ## Conclusion
-/
-/
-/
+\
+\
 # Final Project - Introduction to Big Data Visualization
 
   In this project I am to gain a better understanding of flights from New York City's major airports, LaGuardia, JFK and Newark for the year 2013. I discovered many interesting facts regarding departure flights and their destination. The numbers show that Newark airport handles more flights and JFK the least, but JFK Air routes cover the most amount of Air miles than the other airports. we discovered that the airports most travelled to by NYC passengers are Charlotte, Atlanta and Raleigh-Durham. These are all known HUBS for airlines. The data supports that most airlines are now using airports as hubs to make connections to maximize the amounts of seats are filled. I also wanted to look at the efficiency of each carrier and found ExpressJet to have the highest positive ratio in the industry and the least efficient Alaskan Air. below is the complete analysis, project workflow, limitations and Tableau workbook with supporting visualizations. 
